@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Lab 4 - Bootstrap Grid Challenge</title>
+		<!-- STEP 4: Link to the Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+		<style>
+			/* Diagnostic styles to help visualize grid */
+			div[class^="col"] {
+				outline: 1px dotted grey;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="col" style="background-color:red">
+		<h2>A</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis dui, eu congue neque placerat in. Aliquam placerat porttitor lectus eu porta.</p>
+	</div>
+	<div class="row row-cols-md-4">
+		<div class="col-lg col-md-6" style="background-color:orange">
+			<h2>B</h2>
+			<p>Duis aliquet volutpat magna quis pharetra. Phasellus turpis dui, suscipit lacinia velit quis, hendrerit pellentesque nibh. Nunc sed leo sit amet dui ultricies lobortis ut id ex. Donec efficitur libero at fringilla tempor. Etiam sodales arcu vitae dui finibus tempor at venenatis nunc.</p>
+			<p>Cras sed suscipit nisi. Aenean commodo nunc eget tortor auctor bibendum. Ut posuere arcu velit, vel tincidunt lectus sagittis et. Pellentesque gravida luctus pharetra. In felis neque, feugiat at lacus eget, faucibus iaculis velit. Nullam tristique, justo eget blandit finibus, dui justo aliquam ligula, sit amet iaculis quam lectus sed ex.</p>
+			<p>Sed ac mi ut ante mollis tristique. In sed nisl quis est sollicitudin varius non et velit. Sed turpis nunc, varius vitae iaculis ut, viverra eget neque.</p>
+		</div>
+		<section class="row">
+				<h2 class="col-sm-3">C</h2>
+				<p class="col-sm-3">Morbi vel ipsum id dolor rutrum lacinia. Praesent ullamcorper vulputate libero a vestibulum. Cras mollis mollis magna, ut mattis lacus convallis vel.</p>
+				<h2 class="col-sm-3">D </h2>
+				<p class="col-sm-3">Praesent accumsan, odio quis varius suscipit, nulla ante tincidunt nisl, non interdum quam eros nec nibh.</p>
+		</section>
+	<div class="row-col-6" style="background-color:lightblue">
+		<h2>E</h2>
+		<p>Nulla eget dapibus metus, ac ultricies purus. Vestibulum et tristique felis. Cras sed suscipit nisi. Aenean commodo nunc eget tortor auctor bibendum. Ut posuere arcu velit, vel tincidunt lectus sagittis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aperiam, odio incidunt magni natus corrupti labore voluptatem explicabo quae inventore! Deserunt temporibus tenetur architecto itaque! Assumenda repudiandae nesciunt optio maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia! Unde animi earum error assumenda quam similique vel omnis nostrum vitae reiciendis quaerat tempore, ullam officiis, pariatur fuga fugiat quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nam sapiente? Minus, necessitatibus temporibus? Neque sequi possimus, officia voluptate, animi incidunt esse laudantium illo, aspernatur doloribus impedit rem explicabo expedita.
+		</p>
+	</div>
+</div><!-- end of combine bcd-->
+	<div style="background-color:purple" class="col-lg">
+		<h2>F</h2>
+		<p >Pellentesque gravida luctus pharetra. In felis neque, feugiat at lacus eget, faucibus iaculis velit. Nullam tristique, justo eget blandit finibus, dui justo aliquam ligula, sit amet iaculis quam lectus sed ex. </p>
+	</div>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
